@@ -368,6 +368,15 @@
         <coveralls.skip>true</coveralls.skip>
       </properties>
     </profile>
+    <profile>
+      <id>kodality</id>
+      <distributionManagement>
+        <snapshotRepository>
+          <id>kexus-snapshots</id>
+          <url>https://kexus.kodality.com/repository/maven-snapshots</url>
+        </snapshotRepository>
+      </distributionManagement>
+    </profile>
   </profiles>
 
 </project>
