@@ -250,7 +250,7 @@ public class BeanProcessor {
      * @return An initialized object.
      * @throws SQLException if a database error occurs.
      */
-    private <T> T populateBean(final ResultSet rs, final T bean,
+    protected <T> T populateBean(final ResultSet rs, final T bean,
             final PropertyDescriptor[] props, final int[] columnToProperty)
             throws SQLException {
 
