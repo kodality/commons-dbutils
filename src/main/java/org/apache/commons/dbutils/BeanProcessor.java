@@ -95,6 +95,10 @@ public class BeanProcessor {
         }
     }
 
+    public static void registerColumnHandler(ColumnHandler handler){
+        columnHandlers.add(handler);
+    }
+
     /**
      * Constructor for BeanProcessor.
      */
