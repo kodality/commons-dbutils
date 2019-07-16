@@ -24,7 +24,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>commons-dbutils</groupId>
   <artifactId>commons-dbutils</artifactId>
-  <version>2.0-SNAPSHOT</version>
+  <version>2.0-kodality-1</version>
   <name>Apache Commons DbUtils</name>
 
   <inceptionYear>2002</inceptionYear>
@@ -375,6 +375,10 @@
           <id>kexus-snapshots</id>
           <url>https://kexus.kodality.com/repository/maven-snapshots</url>
         </snapshotRepository>
+        <repository>
+          <id>kexus</id>
+          <url>https://kexus.kodality.com/repository/maven-releases</url>
+        </repository>
       </distributionManagement>
     </profile>
   </profiles>
